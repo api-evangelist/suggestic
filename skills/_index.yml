@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: generated
+source: https://docs.suggestic.com/graphql/
+note: >-
+  Packaged Agent Skills for the Suggestic GraphQL personalized-nutrition API.
+  Grounded in real documented GraphQL operations (no operation names invented).
+  No provider-published AGENTS.md / skill files were found.
+skills:
+  - file: suggestic-create-user-and-meal-plan.md
+    name: Onboard a user and generate a meal plan
+    api: https://production.suggestic.com/graphql
+    operations: [createUser, setProgram, generateMealPlan, mealPlan]
+  - file: suggestic-food-logging.md
+    name: Log food and read nutrition totals
+    api: https://production.suggestic.com/graphql
+    operations: [recipeSearch, addFoodLog, macrosLogAggregation, foodLogEntries]

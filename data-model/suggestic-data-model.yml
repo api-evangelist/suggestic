@@ -1,0 +1,54 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.suggestic.com/graphql/objects
+docs: https://docs.suggestic.com/graphql/objects/common/user
+note: >-
+  Derived from the documented GraphQL object reference (no OpenAPI). Captures
+  the core entities of the Suggestic personalized-nutrition graph and their
+  relationships. Field-level detail lives in the object docs linked per entity.
+entities:
+  - name: User
+    docs: https://docs.suggestic.com/graphql/objects/common/user
+    key: id (UUID, used as sg-user)
+    description: End user the API acts on behalf of; owns profile, program, plans, logs, trackers.
+  - name: Program
+    docs: https://docs.suggestic.com/graphql/query/queries/program
+    description: A nutrition program (diet + ruleset) a user is assigned to.
+  - name: MealPlan
+    docs: https://docs.suggestic.com/graphql/objects/meal-plan
+    description: Generated 7-day (or custom) plan composed of MealPlanDay -> Meal -> Recipe.
+  - name: Recipe
+    docs: https://docs.suggestic.com/graphql/objects/recipe
+    description: Recipe with ingredients, nutrients per serving, tags, cuisines, source.
+  - name: FoodLog
+    docs: https://docs.suggestic.com/graphql/query/queries/food-log
+    description: User food-logging entries (foods, recipes, express/AI food log).
+  - name: ShoppingList
+    docs: https://docs.suggestic.com/graphql/query/queries/shopping-list
+    description: Aggregated shopping list generated from meal-plan recipes.
+  - name: Restaurant
+    docs: https://docs.suggestic.com/graphql/objects/common/restaurant
+    description: Restaurant with menu items recommended against the user's program.
+  - name: Tracker
+    docs: https://docs.suggestic.com/graphql/objects/common/tracker
+    description: Health trackers (sleep, steps, water, weight, heart-rate, HRV, activity, symptoms).
+  - name: Biomarker
+    docs: https://docs.suggestic.com/graphql/objects/lab-tests/biomarker
+    description: Lab-test biomarkers, results, and recommended supplements/articles.
+  - name: Supplement
+    docs: https://docs.suggestic.com/graphql/objects/supplement
+    description: Supplements and user wellness/supplement plans.
+  - name: Appointment
+    docs: https://docs.suggestic.com/graphql/objects/appointments/appointment
+    description: Coaching/telehealth appointments with coaches and appointment types.
+relationships:
+  - {from: User, to: Program, type: has_one, via: program}
+  - {from: User, to: MealPlan, type: has_many, via: mealPlan}
+  - {from: MealPlan, to: Recipe, type: has_many, via: meals}
+  - {from: User, to: FoodLog, type: has_many, via: foodLog}
+  - {from: MealPlan, to: ShoppingList, type: has_one, via: shoppingList}
+  - {from: User, to: Tracker, type: has_many, via: trackers}
+  - {from: User, to: Biomarker, type: has_many, via: biomarkers}
+  - {from: User, to: Supplement, type: has_many, via: wellnessPlan}
+  - {from: User, to: Appointment, type: has_many, via: appointments}
+  - {from: Restaurant, to: Recipe, type: has_many, via: menuItems}

@@ -1,0 +1,46 @@
+generated: '2026-07-21'
+method: derived
+status: candidate
+source: https://docs.suggestic.com/graphql/
+notes: >-
+  No official hosted/remote Suggestic MCP server was found (no listing in the
+  MCP registry or @modelcontextprotocol npm scope, none referenced in the docs).
+  This is a CANDIDATE tool list derived from marquee documented GraphQL
+  operations of the Suggestic personalized-nutrition API, to seed a future MCP
+  server. Tools map to real GraphQL queries/mutations verified in the docs.
+server:
+  name: suggestic
+  transport: http
+  api: https://production.suggestic.com/graphql
+  auth: "Authorization: Token <token> + sg-user: <user_id> (server-side)"
+tools:
+  - name: create_user
+    description: Create a Suggestic end user.
+    source_operation: graphql#mutation.createUser
+  - name: set_program
+    description: Assign a nutrition program to the current user.
+    source_operation: graphql#mutation.setProgram
+  - name: generate_meal_plan
+    description: Generate a meal plan for the user based on their profile/program.
+    source_operation: graphql#mutation.generateMealPlan
+  - name: get_meal_plan
+    description: Retrieve the user's 7-day meal plan.
+    source_operation: graphql#query.mealPlan
+  - name: swap_meals
+    description: Replace recipes on an existing meal plan.
+    source_operation: graphql#mutation.swapMeals
+  - name: search_recipes
+    description: Search recipes by name, ingredients, or filters.
+    source_operation: graphql#query.recipeSearch
+  - name: add_food_log
+    description: Add a food log entry for the user.
+    source_operation: graphql#mutation.addFoodLog
+  - name: get_shopping_list
+    description: Retrieve the user's shopping list (by aisle or by recipes).
+    source_operation: graphql#query.shoppingList
+  - name: search_restaurants
+    description: Search restaurants by term and geolocation.
+    source_operation: graphql#query.restaurants
+  - name: get_my_profile
+    description: Retrieve the current user's profile.
+    source_operation: graphql#query.myProfile

@@ -1,7 +1,18 @@
 aid: suggestic
 name: Suggestic
-description: Suggestic is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Suggestic is a personalized-nutrition and health platform that exposes a
+  GraphQL API for building meal-planning, food-logging, and coaching
+  applications. Developers use the API to create users, assign nutrition
+  programs and diets, generate personalized meal plans, search a large recipe
+  and restaurant database, log food (including AI photo-based logging), build
+  shopping lists, and track sleep, steps, water, weight, heart rate, symptoms,
+  biomarkers, and supplements. The platform also powers an AI Assistant with
+  journeys and guardrails, a Console for configuration and webhooks, and a
+  Telehealth/Coaching Portal. Suggestic (a Techstars-backed company) markets an
+  enterprise AI offering for regulated health verticals and is HIPAA and SOC 2
+  Type II certified. Authentication is via a server-side API token plus an
+  sg-user header, or client-side JWT bearer tokens.
 url: https://raw.githubusercontent.com/api-evangelist/suggestic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +20,120 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://suggestic.com/assets/images/og-image.png
 tags:
 - Company
-apis: []
+- Nutrition
+- Health
+- Meal Planning
+- Recipes
+- Food
+- GraphQL
+- Personalization
+- Wellness
+- Telehealth
+- Artificial Intelligence
+apis:
+- name: Suggestic GraphQL API
+  description: >-
+    GraphQL API for personalized nutrition — users, programs/diets, meal-plan
+    generation, recipe and restaurant search, food logging (incl. AI food log),
+    shopping lists, health trackers, lab tests/biomarkers, supplements,
+    appointments, and an AI Assistant.
+  humanURL: https://docs.suggestic.com/graphql/
+  baseURL: https://production.suggestic.com/graphql
+  properties:
+  - type: Documentation
+    url: https://docs.suggestic.com/graphql/
+  - type: GettingStarted
+    url: https://docs.suggestic.com/graphql/start-here/getting-started
+  - type: APIReference
+    url: https://docs.suggestic.com/graphql/graphql/graphql-playground
+  - type: Authentication
+    url: authentication/suggestic-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/suggestic-domain-security.yml
 - type: Website
   url: https://suggestic.com/
+- type: DeveloperPortal
+  url: https://docs.suggestic.com/graphql/
+- type: Documentation
+  url: https://docs.suggestic.com/graphql/
+- type: APIReference
+  url: https://docs.suggestic.com/graphql/graphql/graphql-playground
+- type: GettingStarted
+  url: https://docs.suggestic.com/graphql/start-here/getting-started
+- type: Blog
+  url: https://blog.suggestic.com/
+- type: Pricing
+  url: https://pricing.suggestic.com/
+- type: SignUp
+  url: https://suggestic.com/
+- type: Login
+  url: https://console.suggestic.com/
+- type: GitHubOrganization
+  url: https://github.com/Suggestic
+- type: StatusPage
+  url: https://status.suggestic.com/
+- type: ChangeLog
+  url: https://docs.suggestic.com/graphql/changelog/2025
+- type: Authentication
+  url: authentication/suggestic-authentication.yml
+- type: Packages
+  url: packages/suggestic-packages.yml
+- type: SDKs
+  url: packages/suggestic-packages.yml
+- type: Conventions
+  url: conventions/suggestic-conventions.yml
+- type: ErrorCatalog
+  url: errors/suggestic-problem-types.yml
+- type: Lifecycle
+  url: lifecycle/suggestic-lifecycle.yml
+- type: Deprecation
+  url: https://docs.suggestic.com/graphql/helpful-resources/deprecated-features
+- type: ChangeLog
+  url: changelog/suggestic-changelog.yml
+- type: Conformance
+  url: conformance/suggestic-conformance.yml
+- type: Compliance
+  url: https://suggestic.com/
+- type: Components
+  url: components/suggestic-components.yml
+- type: Webhooks
+  url: asyncapi/suggestic-webhooks.yml
+- type: Sandbox
+  url: sandbox/suggestic-sandbox.yml
+- type: MCPServer
+  url: mcp/suggestic-mcp.yml
+- type: DataModel
+  url: data-model/suggestic-data-model.yml
+- type: AgentSkill
+  url: skills/_index.yml
+- type: LLMsTxt
+  url: llms/suggestic-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 17
+  pass: local-v1

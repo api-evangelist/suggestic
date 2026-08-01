@@ -1,0 +1,45 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.suggestic.com/graphql/
+docs: https://docs.suggestic.com/graphql/start-here/tutorials-and-walkthroughs/pagination
+api_style: graphql
+endpoint: https://production.suggestic.com/graphql
+transport: HTTP POST, application/json, single endpoint
+authentication:
+  ref: authentication/suggestic-authentication.yml
+  summary: >-
+    Bearer JWT (client-side) or `Authorization: Token <token>` + `sg-user`
+    header (server-side, on behalf of a user). Partner header:
+    `Suggestic-Partner`.
+pagination:
+  style: relay-cursor
+  description: >-
+    GraphQL Relay-style connections. List queries return `edges { node { ... } }`
+    with `pageInfo`. Slicing arguments `first`/`after` (and `last`/`before`)
+    page forward/backward using opaque cursors.
+  request_params: [first, after, last, before]
+  response_fields: [edges, node, pageInfo, cursor, hasNextPage, endCursor]
+idempotency:
+  supported: false
+  notes: >-
+    Suggestic does not document an idempotency-key header or contract. Mutations
+    are not advertised as idempotent; no Idempotency pointer is emitted.
+error_envelope:
+  style: graphql
+  description: >-
+    Standard GraphQL response envelope: `{ "data": {...}, "errors": [...] }`.
+    Errors are returned in the top-level `errors[]` array (HTTP 200) with a
+    `message` field; REST-style auth failures on /api/v1/login return HTTP 401
+    with `{ "detail": "Incorrect username/password" }`.
+  ref: errors/suggestic-problem-types.yml
+multiple_mutations:
+  supported: true
+  docs: https://docs.suggestic.com/graphql/start-here/tutorials-and-walkthroughs/executing-multiple-mutations
+  description: Multiple mutations can be batched in a single GraphQL request (aliased).
+versioning:
+  ref: lifecycle/suggestic-lifecycle.yml
+  graphql: unversioned single endpoint; field-level deprecation via GraphQL @deprecated + a Deprecated Features doc
+  rest_login: /api/v1/ path versioning on the JWT login endpoint
+rate_limiting:
+  documented: false
+  notes: No public rate-limit headers or quotas documented in the developer docs.

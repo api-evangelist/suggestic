@@ -1,0 +1,56 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.suggestic.com/graphql/graphql/authentication.md
+docs: https://docs.suggestic.com/graphql/graphql/authentication
+summary:
+  types: [http, apiKey]
+  api_key_in: [header]
+  http_schemes: [bearer]
+  oauth2_flows: []
+  notes: >-
+    Suggestic's GraphQL API supports two authentication methods. JWT (Bearer)
+    for client-side apps, and a static API Token plus sg-user header for
+    server-side apps acting on behalf of a user. There is no OAuth2 scope
+    surface, so no scopes/ artifact is emitted.
+schemes:
+  - name: apiTokenAuth
+    type: apiKey
+    in: header
+    parameter_name: Authorization
+    format: "Token <api_token>"
+    context: server-side
+    description: >-
+      Static API token issued to the developer/partner. Sent as the
+      `Authorization: Token <token>` header. Requires a companion `sg-user`
+      header carrying the user UUID the request acts on behalf of. Do NOT use
+      on the client side.
+    companion_headers:
+      - name: sg-user
+        required: false
+        description: >-
+          User UUID the request operates "on behalf of" (e.g.
+          ffffe9fa-3b49-4050-80d1-06129a722d0b). Not required for open
+          mutations like createUser/loginUser or queries marked with `*`.
+      - name: Suggestic-Partner
+        required: false
+        description: >-
+          Partner slug for clients with an isolated database; used in place of
+          sg-user for partner-scoped authentication.
+  - name: jwtBearerAuth
+    type: http
+    scheme: bearer
+    bearerFormat: JWT
+    context: client-side
+    description: >-
+      JWT issued to an end user. Obtained by POST to
+      https://production.suggestic.com/api/v1/login with email+password, or via
+      the `login(userId:)` mutation from a trusted backend using the API token.
+      Sent as `Authorization: Bearer <jwt>`. When a JWT is used, the sg-user
+      header is not required. Access tokens expire after 2 hours; a
+      refresh_token (from the login mutation) renews them.
+    token_endpoint: https://production.suggestic.com/api/v1/login
+    token_ttl_seconds: 7200
+    refresh_supported: true
+environments:
+  production: https://production.suggestic.com/graphql
+  staging: https://staging.suggestic.com/graphql

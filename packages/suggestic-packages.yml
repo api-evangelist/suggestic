@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.suggestic.com/graphql/packages-and-sdks/node-package-npm.md
+packages:
+  - language: javascript
+    registry: npm
+    name: "@suggestic/sdk"
+    url: https://www.npmjs.com/package/@suggestic/sdk
+    install: npm install @suggestic/sdk
+    version: 1.0.3
+    published: '2021-04-07'
+    repository: https://github.com/Suggestic/suggestic-node
+    description: Suggestic Node SDK (TypeScript) — first-party client for the Suggestic GraphQL API.
+    official: true
+notes: >-
+  Suggestic publishes one first-party client library: the Node/TypeScript SDK
+  (@suggestic/sdk), documented on the Node Package (NPM) docs page and sourced
+  from the Suggestic/suggestic-node GitHub repo. No first-party PyPI, Maven,
+  NuGet, RubyGems, Packagist, or crates.io package was found (PyPI "suggestic"
+  returns 404); server-side integrations use raw GraphQL over HTTP.

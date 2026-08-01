@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: https://suggestic.com/
+compliance_program:
+  published: true
+  certifications: [HIPAA, SOC 2 Type II]
+  evidence: >-
+    Suggestic states on its homepage that its platform is "HIPAA and SOC 2
+    Type II certified with zero-trust architecture." Suggestic operates in
+    regulated health/nutrition verticals (value-based care, weight loss,
+    supplements) and offers isolated-database partner deployments.
+  source: https://suggestic.com/
+standards:
+  - id: hipaa
+    conforms: true
+    evidence: Homepage states HIPAA certified; PII anonymization on AI workflow outputs (Console).
+  - id: soc2-type-ii
+    conforms: true
+    evidence: Homepage states SOC 2 Type II certified.
+  - id: oauth2
+    conforms: false
+    evidence: Auth is JWT Bearer + static API token; no OAuth2 authorization-server flows.
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: GraphQL error envelope (errors[] array), not application/problem+json.
+  - id: graphql-relay-pagination
+    conforms: true
+    evidence: List queries use Relay-style edges/node connections with cursor slicing.
+  - id: rfc7519-jwt
+    conforms: true
+    evidence: JWT access tokens (2h TTL) with refresh tokens via /api/v1/login and login mutation.

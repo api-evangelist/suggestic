@@ -1,0 +1,34 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.suggestic.com/graphql/knowledge-base/common-errors.md
+format: graphql-errors
+envelope:
+  transport: HTTP 200 with a top-level `errors[]` array (GraphQL convention)
+  shape: '{ "data": {...}, "errors": [ { "message": "...", "path": [...], "locations": [...] } ] }'
+  field: errors
+notes: >-
+  Suggestic is a GraphQL API, so operation-level failures are returned in the
+  GraphQL `errors[]` array with HTTP 200 rather than as RFC 9457
+  application/problem+json. Some object types (e.g. shoppingList node) also
+  carry an inline `errors` field. REST-style auth on /api/v1/login returns
+  HTTP 401.
+problems:
+  - kind: auth
+    status: 401
+    title: Incorrect username or password
+    detail_example: '{ "detail": "Incorrect username/password" }'
+    source: https://production.suggestic.com/api/v1/login
+  - kind: auth
+    title: Missing or invalid API token / sg-user
+    remediation: >-
+      Provide a valid `Authorization: Token <token>` header and, for
+      user-context operations, the `sg-user` UUID header. Request a new token
+      if a client-exposed token was invalidated.
+  - kind: domain
+    area: meal-plan-generation
+    title: Meal plan generation errors
+    docs: https://docs.suggestic.com/graphql/knowledge-base/common-errors/meal-plan-generation
+    remediation: >-
+      Meal plan generation can fail when the user's profile/program
+      configuration is incomplete or over-restricted. See the Meal Plan Config
+      debug query (mealPlanConfig) and the common-errors reference.

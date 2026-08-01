@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.suggestic.com/graphql/objects/webhooks.md
+spec_type: Webhooks
+surface: >-
+  Suggestic delivers server-to-server webhooks for tracker and appointment
+  events, configured from the Suggestic Console. No published AsyncAPI document
+  was found; this is the documented webhook event catalog. (Aug 2025 changelog:
+  new appointment webhook added and extended to Coaching Portal events.)
+config_via: https://console.suggestic.com/
+events:
+  - name: appointment
+    docs: https://docs.suggestic.com/graphql/objects/webhooks/appointment
+    description: Appointment lifecycle events (including Coaching Portal appointments).
+  - name: sleep-tracker
+    docs: https://docs.suggestic.com/graphql/objects/webhooks/sleep-tracker
+    description: Sleep tracking entries.
+  - name: water-tracker
+    docs: https://docs.suggestic.com/graphql/objects/webhooks/water-tracker
+    description: Water / hydration tracking entries.
+  - name: steps-tracker
+    docs: https://docs.suggestic.com/graphql/objects/webhooks/steps-tracker
+    description: Step-count tracking entries.
+  - name: weight-tracker
+    docs: https://docs.suggestic.com/graphql/objects/webhooks/weight-tracker
+    description: Weight tracking entries.
+  - name: activity-exercise-tracker
+    docs: https://docs.suggestic.com/graphql/objects/webhooks/activity-exercise-tracker
+    description: Activity / exercise tracking entries.

@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.suggestic.com/graphql/graphql/authentication.md
+environments:
+  - name: production
+    endpoint: https://production.suggestic.com/graphql
+    login: https://production.suggestic.com/api/v1/login
+  - name: staging
+    endpoint: https://staging.suggestic.com/graphql
+    description: >-
+      Staging/test environment used in the docs examples for exercising the
+      GraphQL API before going to production. Use production tokens only against
+      production.
+trial:
+  type: free-trial
+  duration_days: 30
+  signup: https://suggestic.com/
+  description: >-
+    Sign up for a 30-day free trial at suggestic.com; on registration you
+    receive a Token and User ID by email to use in the Authorization / sg-user
+    headers.
+tooling:
+  graphql_playground:
+    url: https://production.suggestic.com/graphql
+    docs: https://docs.suggestic.com/graphql/graphql/graphql-playground
+    description: >-
+      Hosted GraphQL Playground to test queries/mutations and browse the schema
+      docs; add the Authorization (and sg-user) headers in the HTTP Headers pane.
+notes: >-
+  Suggestic does not publish magic test identifiers or test card/bank fixtures
+  (it is not a payments provider). The test surface is the staging GraphQL
+  endpoint plus the hosted Playground and the 30-day trial account. No test
+  values are invented here.

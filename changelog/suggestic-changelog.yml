@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.suggestic.com/graphql/changelog/2025
+scheme: dated-monthly
+url: https://docs.suggestic.com/graphql/changelog/2025
+sections: [API, AI Food Log, Console, Mobile, Telehealth Portal]
+entries:
+  - period: '2025-08'
+    date: '2025-08-01'
+    highlights:
+      - Ingredient normalization and ingredient-line structure improved for consistency.
+      - Magic links can now be generated using Branch.
+      - New Console webhook for appointment events; appointment webhook extended to Coaching Portal events.
+      - Telehealth Portal — added Subscription filter to member search; fixed custom macro goal saving.
+    breaking: false
+  - period: '2025-07'
+    date: '2025-07-01'
+    highlights:
+      - Added GraphQL mutation to update starting weight in trackers.
+      - Added "ANYTIME" option for supplement usage time (TimeOfDay).
+      - AI Food Log extended to accept fiber values.
+      - Restricted appointment attachment file types for security; expanded premium recipe translations (Czech, German).
+      - Console — PII anonymization option on AI workflow outputs; custom attributes on Interventions.
+    breaking: false
+recent_window:
+  earliest_captured: '2025-03'
+  latest_captured: '2025-08'
+  note: >-
+    Suggestic maintains a dated monthly changelog (2025 March through August
+    captured at time of enrichment). See the live changelog for the full window.

@@ -1,0 +1,438 @@
+# Technical Docs
+
+## Technical Docs
+
+- [Introduction](https://docs.suggestic.com/graphql/master.md): The Suggestic API is designed to simplify and easily create personalized meal plans based on your user's nutritional requirements, preferences, and restrictions.
+- [Getting Started](https://docs.suggestic.com/graphql/start-here/getting-started.md): This guide will help you to start using the Suggestic API
+- [Attribution Guidelines](https://docs.suggestic.com/graphql/start-here/attribution-guidelines.md)
+- [Core Concepts](https://docs.suggestic.com/graphql/start-here/core-concepts.md): Conceptual foundations of Suggestic's platform
+- [Adherence Score](https://docs.suggestic.com/graphql/start-here/core-concepts/adherence-score.md)
+- [Programs, Diets, and Rulesets](https://docs.suggestic.com/graphql/start-here/core-concepts/programs-diets-and-rulesets.md)
+- [User Profile](https://docs.suggestic.com/graphql/start-here/core-concepts/user-profile.md)
+- [Datasets](https://docs.suggestic.com/graphql/start-here/core-concepts/datasets.md): Our datasets
+- [Tutorials and Walkthroughs](https://docs.suggestic.com/graphql/start-here/tutorials-and-walkthroughs.md)
+- [Creating a Meal Plan](https://docs.suggestic.com/graphql/start-here/tutorials-and-walkthroughs/create-a-meal-plan.md): Step by step guide for creating a meal plan
+- [Food Log Guide](https://docs.suggestic.com/graphql/start-here/tutorials-and-walkthroughs/food-log-guide.md): A general guide on how to do food logging with the Suggestic API
+- [Pagination](https://docs.suggestic.com/graphql/start-here/tutorials-and-walkthroughs/pagination.md): Using pagination and slicing to work with search queries
+- [Executing Multiple Mutations](https://docs.suggestic.com/graphql/start-here/tutorials-and-walkthroughs/executing-multiple-mutations.md): This section will explain how to create multiple mutations.
+- [How-to guides](https://docs.suggestic.com/graphql/knowledge-base/how-to-guides.md)
+- [How to add desserts to your meal plan](https://docs.suggestic.com/graphql/knowledge-base/how-to-guides/how-to-add-desserts-to-your-meal-plan.md): The document will guide you through the steps to add a dessert meal to your generated meal plan.
+- [How to log your custom recipe](https://docs.suggestic.com/graphql/knowledge-base/how-to-guides/how-to-log-your-custom-recipe.md): The document will guide you through the steps to create and log your custom meal
+- [How to generate a Meal Plan based on a template](https://docs.suggestic.com/graphql/knowledge-base/how-to-guides/how-to-generate-a-meal-plan-based-on-a-template.md): The document will guide you through the steps to generate a meal plan based on a meal plan template
+- [Common errors](https://docs.suggestic.com/graphql/knowledge-base/common-errors.md)
+- [Meal Plan generation](https://docs.suggestic.com/graphql/knowledge-base/common-errors/meal-plan-generation.md)
+- [FAQs](https://docs.suggestic.com/graphql/knowledge-base/faqs.md): Frequently Asked Questions
+- [Getting Started on Suggestic](https://docs.suggestic.com/graphql/knowledge-base/faqs/getting-started-on-suggestic.md)
+- [API and Authentication](https://docs.suggestic.com/graphql/knowledge-base/faqs/api-and-authentication.md)
+- [Device Compatibility](https://docs.suggestic.com/graphql/knowledge-base/faqs/device-compatibility.md): Device compatibility with the Suggestic App
+- [Meal Plan](https://docs.suggestic.com/graphql/knowledge-base/faqs/meal-plan.md)
+- [Nutrition](https://docs.suggestic.com/graphql/knowledge-base/faqs/nutrition.md)
+- [Programs](https://docs.suggestic.com/graphql/knowledge-base/faqs/programs.md)
+- [Recipes](https://docs.suggestic.com/graphql/knowledge-base/faqs/recipes.md)
+- [Deprecated Features](https://docs.suggestic.com/graphql/helpful-resources/deprecated-features.md): List of deprecated functionalities
+- [Glossary](https://docs.suggestic.com/graphql/helpful-resources/glossary.md): This glossary documents all the essential terms used in the API documentation
+- [Integrations](https://docs.suggestic.com/graphql/helpful-resources/integrations.md)
+- [Building a No-code Meal Planning Application](https://docs.suggestic.com/graphql/helpful-resources/integrations/building-a-no-code-meal-planning-application.md)
+- [Step 1: Creating the Integromat Scenario and Google Forms Connection](https://docs.suggestic.com/graphql/helpful-resources/integrations/building-a-no-code-meal-planning-application/step-1-creating-the-integromat-scenario-and-google-forms-connection.md)
+- [Step 2: Creating a User, Generating a Meal Plan, and Retrieving It](https://docs.suggestic.com/graphql/helpful-resources/integrations/building-a-no-code-meal-planning-application/step-2-creating-a-user-generating-a-meal-plan-and-retrieving-it.md)
+- [Step 3: Crafting Our PDF and Connecting PDFMonkey](https://docs.suggestic.com/graphql/helpful-resources/integrations/building-a-no-code-meal-planning-application/step-3-crafting-our-pdf-and-connecting-pdfmonkey.md)
+- [Step 4: Sending The Document to Our User](https://docs.suggestic.com/graphql/helpful-resources/integrations/building-a-no-code-meal-planning-application/step-4-sending-the-document-to-our-user.md)
+- [Console](https://docs.suggestic.com/graphql/helpful-resources/console.md)
+- [Ai Chat Widget](https://docs.suggestic.com/graphql/helpful-resources/console/ai-chat-widget.md): Embed your AI Assistant on your website by enabling the Widget directly from the Suggestic Console.
+- [Password requirements for Console Users](https://docs.suggestic.com/graphql/helpful-resources/console/password-requirements-for-console-users.md): Console users must adhere to the following password requirements to set or change their password:
+- [Node Package (NPM)](https://docs.suggestic.com/graphql/packages-and-sdks/node-package-npm.md)
+- [GraphQL Overview](https://docs.suggestic.com/graphql/graphql/graphql-api.md)
+- [Authentication](https://docs.suggestic.com/graphql/graphql/authentication.md): Suggestic supported authentication methods
+- [Calling GraphQL](https://docs.suggestic.com/graphql/graphql/calling-graphql.md)
+- [GraphQL Playground](https://docs.suggestic.com/graphql/graphql/graphql-playground.md): GraphQL Playground is a powerful tool that can be used to test and check the documentation for queries, mutations, objects types, and fields.
+- [2025](https://docs.suggestic.com/graphql/changelog/2025.md)
+- [March](https://docs.suggestic.com/graphql/changelog/2025/march.md)
+- [April](https://docs.suggestic.com/graphql/changelog/2025/april.md)
+- [May](https://docs.suggestic.com/graphql/changelog/2025/may.md)
+- [June](https://docs.suggestic.com/graphql/changelog/2025/june.md)
+- [July](https://docs.suggestic.com/graphql/changelog/2025/july.md)
+- [August](https://docs.suggestic.com/graphql/changelog/2025/august.md)
+- [Search](https://docs.suggestic.com/graphql/query/search.md)
+- [Food Log](https://docs.suggestic.com/graphql/query/search/food-search-for-food-log.md)
+- [Branded Foods Search](https://docs.suggestic.com/graphql/query/search/food-search-for-food-log/branded-foods-search.md)
+- [Common Foods Search](https://docs.suggestic.com/graphql/query/search/food-search-for-food-log/common-foods-search.md)
+- [My Branded Food Search](https://docs.suggestic.com/graphql/query/search/food-search-for-food-log/my-branded-food-search.md)
+- [My Common Foods Search](https://docs.suggestic.com/graphql/query/search/food-search-for-food-log/my-common-foods-search.md)
+- [Food Search](https://docs.suggestic.com/graphql/query/search/food-search-for-food-log/food-search.md)
+- [Legacy](https://docs.suggestic.com/graphql/query/search/food-search-for-food-log/legacy.md)
+- [Autocomplete](https://docs.suggestic.com/graphql/query/search/food-search-for-food-log/legacy/autocomplete.md)
+- [Barcode Search](https://docs.suggestic.com/graphql/query/search/food-search-for-food-log/legacy/barcode-search.md): Search products by barcode
+- [Recipe Search](https://docs.suggestic.com/graphql/query/search/recipe-search.md)
+- [Recipe Search](https://docs.suggestic.com/graphql/query/search/recipe-search/recipes.md): Search for recipes using a variety of filters
+- [Recipe Search by Name or Ingredients](https://docs.suggestic.com/graphql/query/search/recipe-search/recipe-by-name-or-ingredient.md): Search for recipes by their name or by ingredients
+- [Recipe Search by Ingredients](https://docs.suggestic.com/graphql/query/search/recipe-search/recipes-by-ingredients.md): Search for recipe that contain certain ingredients
+- [Meal Plan Template Search](https://docs.suggestic.com/graphql/query/search/meal-plan-template-search.md)
+- [Profile Search](https://docs.suggestic.com/graphql/query/search/search-profile.md)
+- [Restaurant Search](https://docs.suggestic.com/graphql/query/search/restaurant-search.md)
+- [Restaurant Search by Location](https://docs.suggestic.com/graphql/query/search/restaurant-search/restaurants.md): Search restaurants by term and geolocation
+- [Restaurant Search](https://docs.suggestic.com/graphql/query/search/restaurant-search/restaurant-search.md)
+- [Queries](https://docs.suggestic.com/graphql/query/queries.md)
+- [Appointments](https://docs.suggestic.com/graphql/query/queries/appointments.md)
+- [Coach Availability](https://docs.suggestic.com/graphql/query/queries/appointments/coach-availability.md)
+- [Upcoming Appointments](https://docs.suggestic.com/graphql/query/queries/appointments/upcoming-appointments.md)
+- [Past Appointments](https://docs.suggestic.com/graphql/query/queries/appointments/past-appointments.md)
+- [Appointments Types](https://docs.suggestic.com/graphql/query/queries/appointments/appointments-types.md)
+- [Assessments](https://docs.suggestic.com/graphql/query/queries/assessments.md)
+- [Assessment Answers](https://docs.suggestic.com/graphql/query/queries/assessments/assessment-answers.md)
+- [Display Assessments](https://docs.suggestic.com/graphql/query/queries/assessments/display-assessments.md)
+- [Supplement Recommendations](https://docs.suggestic.com/graphql/query/queries/assessments/supplement-recommendations.md)
+- [User Assessments](https://docs.suggestic.com/graphql/query/queries/assessments/user-assessments.md)
+- [User Assessment History](https://docs.suggestic.com/graphql/query/queries/assessments/user-assessment-history.md)
+- [Content](https://docs.suggestic.com/graphql/query/queries/content.md)
+- [Content Library](https://docs.suggestic.com/graphql/query/queries/content/content-library.md): Query content library articles
+- [Content Categories](https://docs.suggestic.com/graphql/query/queries/content/content-library-1.md): Query content library articles
+- [Content Tags](https://docs.suggestic.com/graphql/query/queries/content/content-library-2.md): Query content library articles
+- [Journey](https://docs.suggestic.com/graphql/query/queries/content/journey.md): Retrieve a program's journey content
+- [Food Log](https://docs.suggestic.com/graphql/query/queries/food-log.md)
+- [Frequently Logged](https://docs.suggestic.com/graphql/query/queries/food-log/frequently-logged.md): A list of the most frequently logged items
+- [Food Log Entries](https://docs.suggestic.com/graphql/query/queries/food-log/food-log-entries.md)
+- [Express Meal Track Entries](https://docs.suggestic.com/graphql/query/queries/food-log/express-meal-track-entries.md)
+- [Macros Aggregation](https://docs.suggestic.com/graphql/query/queries/food-log/macros-log-aggregation.md): A list of aggregated macronutrient sums for the given date ranges
+- [Micronutrients Aggregation](https://docs.suggestic.com/graphql/query/queries/food-log/macros-log-aggregation-1.md): A list of aggregated micronutrient sums for the given date ranges
+- [Macro Goals](https://docs.suggestic.com/graphql/query/queries/food-log/macro-goals.md)
+- [Recently Logged](https://docs.suggestic.com/graphql/query/queries/food-log/recently-logged.md): A list of the most recently logged items
+- [User's Foods and Recipes](https://docs.suggestic.com/graphql/query/queries/food-log/users-foods-and-recipes.md)
+- [User's Recipes](https://docs.suggestic.com/graphql/query/queries/food-log/users-foods-and-recipes/users-recipes.md)
+- [Legacy](https://docs.suggestic.com/graphql/query/queries/food-log/legacy.md)
+- [Food Log Entries (Legacy)](https://docs.suggestic.com/graphql/query/queries/food-log/legacy/food-logs.md): Retrieving user's food log entries.
+- [Own Food Items](https://docs.suggestic.com/graphql/query/queries/food-log/legacy/own-food-items.md): Retrieve the list of own Food Items
+- [Own Food Item](https://docs.suggestic.com/graphql/query/queries/food-log/legacy/own-food-item.md): Retrieve individual Food Item by id
+- [Own Food Item by Id](https://docs.suggestic.com/graphql/query/queries/food-log/legacy/own-food-item-by-id.md): Retrieve an Own Food Item's information by its Id
+- [Own Items](https://docs.suggestic.com/graphql/query/queries/food-log/legacy/own-items.md): Get a list of own recipes and own food items
+- [Own Recipe](https://docs.suggestic.com/graphql/query/queries/food-log/legacy/own-recipe.md): Retrieve individual own recipe by id
+- [Own Recipes](https://docs.suggestic.com/graphql/query/queries/food-log/legacy/own-recipes.md): Retrieve the list of own recipes
+- [Lab Tests](https://docs.suggestic.com/graphql/query/queries/lab-tests.md)
+- [Biomarker Categories](https://docs.suggestic.com/graphql/query/queries/lab-tests/biomarker-categories.md): Biomarker Categories
+- [Biomarker Units](https://docs.suggestic.com/graphql/query/queries/lab-tests/biomarker-units.md)
+- [Biomarker Catalog](https://docs.suggestic.com/graphql/query/queries/lab-tests/biomarker-catalog.md): Reference list of biomarker definitions
+- [Biomarkers](https://docs.suggestic.com/graphql/query/queries/lab-tests/biomarkers.md)
+- [Biomarker Results](https://docs.suggestic.com/graphql/query/queries/lab-tests/biomarker-results.md)
+- [Historical Biomarker Results](https://docs.suggestic.com/graphql/query/queries/lab-tests/historical-biomarker-results.md)
+- [Historical Results by Biomarker](https://docs.suggestic.com/graphql/query/queries/lab-tests/historical-results-by-biomarker.md)
+- [Lab Test Reports](https://docs.suggestic.com/graphql/query/queries/lab-tests/lab-test-reports.md)
+- [Recommended Supplements](https://docs.suggestic.com/graphql/query/queries/lab-tests/recommended-supplements.md)
+- [Recommended Articles](https://docs.suggestic.com/graphql/query/queries/lab-tests/recommended-articles.md)
+- [Meal Plan](https://docs.suggestic.com/graphql/query/queries/meal-plan.md)
+- [Meal Plan](https://docs.suggestic.com/graphql/query/queries/meal-plan/meal-plan-1.md): Returns a 7-day meal plan based on the user's profile.
+- [Custom Meal Plan](https://docs.suggestic.com/graphql/query/queries/meal-plan/meal-plan.md): Generates a Custom Meal Plan based on a daily caloric goal, macro ratios, and the user's profile.
+- [Simplified Meal Tracking](https://docs.suggestic.com/graphql/query/queries/meal-plan/meal-tracking.md)
+- [Meal Tracker](https://docs.suggestic.com/graphql/query/queries/meal-plan/meal-tracking/meal-tracker.md): Get the list of all tracked meals for a given range of dates.
+- [Meal Plan Config](https://docs.suggestic.com/graphql/query/queries/meal-plan/meal-plan-config.md): Debug the users' current meal plan configuration
+- [Meal Planner (deprecated)](https://docs.suggestic.com/graphql/query/queries/meal-plan/meal-planner.md): Suggestic's meal planner feature generates a plan that is compliant with the user's assigned program and all its preferences and restrictions.
+- [Program](https://docs.suggestic.com/graphql/query/queries/program.md)
+- [All Programs](https://docs.suggestic.com/graphql/query/queries/program/programs.md): List all available programs and their descriptions
+- [Program Details](https://docs.suggestic.com/graphql/query/queries/program/program-details.md): Retrieve all the details of a program
+- [Recipes](https://docs.suggestic.com/graphql/query/queries/recipes.md)
+- [Equivalent Recipes (Macros)](https://docs.suggestic.com/graphql/query/queries/recipes/similar-macros-recipes.md): Query to obtain recipes with similar macronutrient distribution
+- [Equivalent Recipes (Calories)](https://docs.suggestic.com/graphql/query/queries/recipes/similar-macros-recipes-1.md): Query to obtain recipes with similar macronutrient distribution
+- [Recipe by Id](https://docs.suggestic.com/graphql/query/queries/recipes/recipe-by-id.md): Retrieve a recipe's information by its Id
+- [Recipes By MealTime](https://docs.suggestic.com/graphql/query/queries/recipes/recipe-by-meal-time.md): Obtain recommended recipes by mealTime
+- [Recipes By Tag](https://docs.suggestic.com/graphql/query/queries/recipes/recipes-by-tag.md): Obtain recommended recipes by mealTag
+- [Recipe Swap Options](https://docs.suggestic.com/graphql/query/queries/recipes/recipe-swap-options.md): Retrieves similar recipes for meal plan swaps
+- [Popular Recipes](https://docs.suggestic.com/graphql/query/queries/recipes/popular-recipes.md): Obtain a list of popular recipes
+- [Favorite Recipes](https://docs.suggestic.com/graphql/query/queries/recipes/my-favorite-recipes.md): Returns a list of the user's favorited recipes
+- [Premium Program Recipes](https://docs.suggestic.com/graphql/query/queries/recipes/premium-program-recipes.md): Obtain a list of Premium recipes if the user is on a Premium program
+- [Restaurants](https://docs.suggestic.com/graphql/query/queries/restaurants.md)
+- [Restaurant By Id](https://docs.suggestic.com/graphql/query/queries/restaurants/restaurant.md): Retrieve a restaurant's information by its Id
+- [Menu Items](https://docs.suggestic.com/graphql/query/queries/restaurants/menu-items.md): Obtain a list of menu items for a specific restaurant
+- [Menu Item By Id](https://docs.suggestic.com/graphql/query/queries/restaurants/menu-item-by-id.md): Obtain a menu item's details
+- [Menu Item by Program](https://docs.suggestic.com/graphql/query/queries/restaurants/menu-item-by-program.md)
+- [Recommend Menu Items](https://docs.suggestic.com/graphql/query/queries/restaurants/recommend-menu-items.md)
+- [Restrictions](https://docs.suggestic.com/graphql/query/queries/restrictions.md)
+- [Restrictions](https://docs.suggestic.com/graphql/query/queries/restrictions/restrictions.md): Returns all available food restrictions.
+- [Restriction by ID](https://docs.suggestic.com/graphql/query/queries/restrictions/restriction-by-id.md): Get the information of a restriction by its given ID
+- [Shopping List](https://docs.suggestic.com/graphql/query/queries/shopping-list.md)
+- [Shopping List by Aisle](https://docs.suggestic.com/graphql/query/queries/shopping-list/shopping-list.md)
+- [Shopping List by Recipes](https://docs.suggestic.com/graphql/query/queries/shopping-list/shopping-list-1.md)
+- [Subscriptions](https://docs.suggestic.com/graphql/query/queries/subscriptions.md): Set of services to manage user's subscriptions
+- [Subscription List](https://docs.suggestic.com/graphql/query/queries/subscriptions/subscription-list.md)
+- [Wellness Plans](https://docs.suggestic.com/graphql/query/queries/wellness-plans.md)
+- [Supplement  plan list](https://docs.suggestic.com/graphql/query/queries/wellness-plans/supplement-plan-list.md)
+- [Supplement list](https://docs.suggestic.com/graphql/query/queries/wellness-plans/supplement-list.md)
+- [Tracking](https://docs.suggestic.com/graphql/query/queries/tracking.md)
+- [Activity and Exercise](https://docs.suggestic.com/graphql/query/queries/tracking/activity-and-exercise.md)
+- [Checklists](https://docs.suggestic.com/graphql/query/queries/tracking/checklists.md)
+- [Intake Checklist](https://docs.suggestic.com/graphql/query/queries/tracking/checklists/intake-checklist.md)
+- [Daily Recap](https://docs.suggestic.com/graphql/query/queries/tracking/daily-recap.md)
+- [Get Daily Recap](https://docs.suggestic.com/graphql/query/queries/tracking/daily-recap/get-daily-recap.md)
+- [Get Daily Recaps](https://docs.suggestic.com/graphql/query/queries/tracking/daily-recap/get-daily-recaps.md)
+- [Get Daily Recap Questions](https://docs.suggestic.com/graphql/query/queries/tracking/daily-recap/get-daily-recap-questions.md)
+- [Get Daily Mood Summary](https://docs.suggestic.com/graphql/query/queries/tracking/daily-recap/get-daily-mood-summary.md)
+- [Inisghts](https://docs.suggestic.com/graphql/query/queries/tracking/inisghts.md)
+- [Wellness Score](https://docs.suggestic.com/graphql/query/queries/tracking/wellness-score.md)
+- [Sleep](https://docs.suggestic.com/graphql/query/queries/tracking/sleep.md)
+- [Sleep Time](https://docs.suggestic.com/graphql/query/queries/tracking/sleep/sleep-time.md)
+- [Sleep Quality Score](https://docs.suggestic.com/graphql/query/queries/tracking/sleep/sleep-quality-score.md)
+- [Steps](https://docs.suggestic.com/graphql/query/queries/tracking/steps.md)
+- [Water and Hydration](https://docs.suggestic.com/graphql/query/queries/tracking/water-tracker.md): Get historical water tracked by date
+- [Heart Rate](https://docs.suggestic.com/graphql/query/queries/tracking/heart-rate.md)
+- [HRV](https://docs.suggestic.com/graphql/query/queries/tracking/hrv.md): Heart Rate Variability
+- [Weight Tracker](https://docs.suggestic.com/graphql/query/queries/tracking/weight-tracker.md)
+- [Symptoms](https://docs.suggestic.com/graphql/query/queries/tracking/symptoms.md)
+- [Symptom](https://docs.suggestic.com/graphql/query/queries/tracking/symptoms/symptom.md)
+- [Symptoms](https://docs.suggestic.com/graphql/query/queries/tracking/symptoms/symptoms.md)
+- [Symptom Categories](https://docs.suggestic.com/graphql/query/queries/tracking/symptoms/symptom-categories.md)
+- [User Symptoms](https://docs.suggestic.com/graphql/query/queries/tracking/symptoms/user-symptoms.md)
+- [Symptom Stats](https://docs.suggestic.com/graphql/query/queries/tracking/symptoms/symptom-stats.md)
+- [Recent Symptoms](https://docs.suggestic.com/graphql/query/queries/tracking/symptoms/recent-symptoms.md)
+- [USDA Food](https://docs.suggestic.com/graphql/query/queries/usda-food.md): Obtain details about an item in the USDA food database
+- [Users](https://docs.suggestic.com/graphql/query/queries/users.md)
+- [Users](https://docs.suggestic.com/graphql/query/queries/users/my-list.md)
+- [User Profile](https://docs.suggestic.com/graphql/query/queries/users/my-profile.md): User's profile data
+- [AI assistant](https://docs.suggestic.com/graphql/query/queries/ai-assistant.md)
+- [Assistants](https://docs.suggestic.com/graphql/query/queries/ai-assistant/assistants.md)
+- [Journey](https://docs.suggestic.com/graphql/query/queries/ai-assistant/journey.md)
+- [Guardrails](https://docs.suggestic.com/graphql/query/queries/ai-assistant/guardrails.md)
+- [AI conversation summary](https://docs.suggestic.com/graphql/query/queries/ai-assistant/ai-conversation-summary.md)
+- [Mutations](https://docs.suggestic.com/graphql/query/mutations.md)
+- [Appointments](https://docs.suggestic.com/graphql/query/mutations/appointments.md)
+- [Update Appointment Credits](https://docs.suggestic.com/graphql/query/mutations/appointments/update-appointment-credits.md)
+- [Create Appointment](https://docs.suggestic.com/graphql/query/mutations/appointments/create-appointment.md)
+- [Cancel Appointment](https://docs.suggestic.com/graphql/query/mutations/appointments/cancel-appointment.md)
+- [Assessments](https://docs.suggestic.com/graphql/query/mutations/assessments.md)
+- [New User Assessments](https://docs.suggestic.com/graphql/query/mutations/assessments/new-user-assessments.md)
+- [Set User Answers](https://docs.suggestic.com/graphql/query/mutations/assessments/set-user-answers.md)
+- [Content](https://docs.suggestic.com/graphql/query/mutations/content.md)
+- [Mark Content as Read](https://docs.suggestic.com/graphql/query/mutations/content/mark-content-as-read.md): To toggle the read status for a content library element
+- [Feedback](https://docs.suggestic.com/graphql/query/mutations/send-feedback.md)
+- [Food Log](https://docs.suggestic.com/graphql/query/mutations/food-log.md)
+- [Log Entries](https://docs.suggestic.com/graphql/query/mutations/food-log/log-entries.md)
+- [Food Log](https://docs.suggestic.com/graphql/query/mutations/food-log/log-entries/food-log.md)
+- [Add a Food Log Entry](https://docs.suggestic.com/graphql/query/mutations/food-log/log-entries/food-log/add-a-food-log.md): Add a food log entry
+- [Delete a Food Log Entry](https://docs.suggestic.com/graphql/query/mutations/food-log/log-entries/food-log/delete-a-log-entry.md)
+- [Meal Log (Legacy)](https://docs.suggestic.com/graphql/query/mutations/food-log/log-entries/meal-log-legacy.md)
+- [Create Log Entry](https://docs.suggestic.com/graphql/query/mutations/food-log/log-entries/meal-log-legacy/food-logs.md): Create a new meal log entry
+- [Update Log Entry](https://docs.suggestic.com/graphql/query/mutations/food-log/log-entries/meal-log-legacy/update-log-entry.md): Update a specific log entry
+- [Remove Log Entry](https://docs.suggestic.com/graphql/query/mutations/food-log/log-entries/meal-log-legacy/remove-log-entry.md): Remove or delete a specific log entry
+- [User's Foods and Recipes](https://docs.suggestic.com/graphql/query/mutations/food-log/users-foods-and-recipes.md)
+- [Create a User Recipe](https://docs.suggestic.com/graphql/query/mutations/food-log/users-foods-and-recipes/create-a-user-recipe.md): Create your own recipe
+- [Create my Branded Food](https://docs.suggestic.com/graphql/query/mutations/food-log/users-foods-and-recipes/create-my-branded-food.md)
+- [Create my Common Foods](https://docs.suggestic.com/graphql/query/mutations/food-log/users-foods-and-recipes/create-my-common-foods.md)
+- [Update a User Recipe](https://docs.suggestic.com/graphql/query/mutations/food-log/users-foods-and-recipes/update-a-user-recipe.md)
+- [Delete a User Recipe](https://docs.suggestic.com/graphql/query/mutations/food-log/users-foods-and-recipes/delete-a-user-recipe.md)
+- [Legacy: "Own" Recipe](https://docs.suggestic.com/graphql/query/mutations/food-log/users-foods-and-recipes/own-recipe.md)
+- [Create "Own" Recipe](https://docs.suggestic.com/graphql/query/mutations/food-log/users-foods-and-recipes/own-recipe/create-own-recipe.md): Create a new "own" recipe
+- [Update "Own" Recipe](https://docs.suggestic.com/graphql/query/mutations/food-log/users-foods-and-recipes/own-recipe/update-own-recipe.md): Update an "own" recipe
+- [Remove "Own" Recipe](https://docs.suggestic.com/graphql/query/mutations/food-log/users-foods-and-recipes/own-recipe/remove-own-recipe.md): Remove an own recipe
+- [Express Track](https://docs.suggestic.com/graphql/query/mutations/food-log/express-track.md)
+- [Create Express Meal Track](https://docs.suggestic.com/graphql/query/mutations/food-log/express-track/create-express-meal-track.md)
+- [Update Express Meal Track](https://docs.suggestic.com/graphql/query/mutations/food-log/express-track/update-express-meal-track.md)
+- [Delete Express Meal Track](https://docs.suggestic.com/graphql/query/mutations/food-log/express-track/delete-express-meal-track.md)
+- [AI Food Log](https://docs.suggestic.com/graphql/query/mutations/food-log/ai-food-log.md)
+- [Process Ai Food](https://docs.suggestic.com/graphql/query/mutations/food-log/ai-food-log/process-ai-food.md)
+- [Save Ai Food Log](https://docs.suggestic.com/graphql/query/mutations/food-log/ai-food-log/save-ai-food-log.md)
+- [Legacy (ownFoods and ownRecipes)](https://docs.suggestic.com/graphql/query/mutations/food-log/own-food-item.md)
+- [Create "own" Food Item](https://docs.suggestic.com/graphql/query/mutations/food-log/own-food-item/create-own-meal.md): Create a new food item
+- [Update "own Food"](https://docs.suggestic.com/graphql/query/mutations/food-log/own-food-item/update-own-food.md): Update a food item
+- [Remove "own" Food Item](https://docs.suggestic.com/graphql/query/mutations/food-log/own-food-item/remove-own-meal.md): Remove and "own" Food Item
+- [Journey Status](https://docs.suggestic.com/graphql/query/mutations/journey.md): Update the status of a "day" on a journey
+- [Start Journeys](https://docs.suggestic.com/graphql/query/mutations/journey/start-journeys.md): Change a user's day in the journey
+- [Journey Status](https://docs.suggestic.com/graphql/query/mutations/journey/journey-status.md): Update the status of a "day" on a journey
+- [Toggle Task Completed](https://docs.suggestic.com/graphql/query/mutations/journey/toggle-task-completed.md)
+- [Lab Tests](https://docs.suggestic.com/graphql/query/mutations/lab-tests.md)
+- [Add Biomarker](https://docs.suggestic.com/graphql/query/mutations/lab-tests/add-biomarker.md)
+- [Update Biomarker](https://docs.suggestic.com/graphql/query/mutations/lab-tests/update-biomarker.md)
+- [Add Biomarker Result](https://docs.suggestic.com/graphql/query/mutations/lab-tests/add-biomarker-result.md)
+- [Add Biomarker Category](https://docs.suggestic.com/graphql/query/mutations/lab-tests/add-biomarker-category.md)
+- [Update Biomarker Category](https://docs.suggestic.com/graphql/query/mutations/lab-tests/update-biomarker-category.md)
+- [Remove Biomarker Category](https://docs.suggestic.com/graphql/query/mutations/lab-tests/remove-biomarker-category.md)
+- [Add Lab Test Report](https://docs.suggestic.com/graphql/query/mutations/lab-tests/add-lab-test-report.md)
+- [Delete Lab Test Report](https://docs.suggestic.com/graphql/query/mutations/lab-tests/delete-lab-test-report.md)
+- [Update Lab Test Report](https://docs.suggestic.com/graphql/query/mutations/lab-tests/update-lab-test-report.md)
+- [Create Recommended Supplement](https://docs.suggestic.com/graphql/query/mutations/lab-tests/create-recommended-supplement.md)
+- [Update Recommended Supplement](https://docs.suggestic.com/graphql/query/mutations/lab-tests/update-recommended-supplement.md)
+- [Remove Recommended Supplement](https://docs.suggestic.com/graphql/query/mutations/lab-tests/remove-recommended-supplement.md)
+- [Create Recommended Article](https://docs.suggestic.com/graphql/query/mutations/lab-tests/create-recommended-article.md)
+- [Update Recommended Article](https://docs.suggestic.com/graphql/query/mutations/lab-tests/update-recommended-article.md)
+- [Remove Recommended Supplement](https://docs.suggestic.com/graphql/query/mutations/lab-tests/remove-recommended-supplement-1.md)
+- [Meal Plan](https://docs.suggestic.com/graphql/query/mutations/meal-plan.md)
+- [Create Meal Plan Template](https://docs.suggestic.com/graphql/query/mutations/meal-plan/create-meal-plan-template.md)
+- [Custom Options](https://docs.suggestic.com/graphql/query/mutations/meal-plan/create-meal-plan-template/custom-options.md)
+- [From Days](https://docs.suggestic.com/graphql/query/mutations/meal-plan/create-meal-plan-template/from-days.md)
+- [From Scratch](https://docs.suggestic.com/graphql/query/mutations/meal-plan/create-meal-plan-template/from-scratch.md)
+- [Assign a Meal Plan Template to a User](https://docs.suggestic.com/graphql/query/mutations/meal-plan/assign-a-meal-plan-template-to-a-user.md)
+- [Generate Simple Meal Plan](https://docs.suggestic.com/graphql/query/mutations/meal-plan/generate-simple-meal-plan.md): Generate a simple meal
+- [Generate Meal Plan](https://docs.suggestic.com/graphql/query/mutations/meal-plan/generate-meal-plan.md)
+- [Start Over Meal Plan](https://docs.suggestic.com/graphql/query/mutations/meal-plan/start-over-meal-plan.md)
+- [Swap Meals](https://docs.suggestic.com/graphql/query/mutations/meal-plan/swap-meals.md): Replaces recipes on an existing meal plan
+- [Simplified Meal Tracking](https://docs.suggestic.com/graphql/query/mutations/meal-plan/simplified-meal-tracking.md)
+- [Create a Meal Tracker Entry](https://docs.suggestic.com/graphql/query/mutations/meal-plan/simplified-meal-tracking/create-a-meal-entry.md)
+- [Remove Meal Plan](https://docs.suggestic.com/graphql/query/mutations/meal-plan/remove-meal-plan.md): Remove an existing meal plan
+- [Remove Meal Plan Recipe](https://docs.suggestic.com/graphql/query/mutations/meal-plan/remove-meal-plan-recipe.md): Remove a recipe associated with a meal plan
+- [Recipes](https://docs.suggestic.com/graphql/query/mutations/recipes.md)
+- [Add new recipe](https://docs.suggestic.com/graphql/query/mutations/recipes/add-new-recipe.md)
+- [Add Favorite Recipe](https://docs.suggestic.com/graphql/query/mutations/recipes/user-favorite-recipe.md)
+- [Shopping List](https://docs.suggestic.com/graphql/query/mutations/shopping-list.md)
+- [Add Multiple Recipes to the Shopping List](https://docs.suggestic.com/graphql/query/mutations/shopping-list/shopping-list.md)
+- [Add a Recipe to the Shopping List](https://docs.suggestic.com/graphql/query/mutations/shopping-list/shopping-list-1.md): Manage Shopping Lists
+- [Bulk Check/Uncheck Items](https://docs.suggestic.com/graphql/query/mutations/shopping-list/shopping-list-2.md)
+- [Check/Uncheck an Item](https://docs.suggestic.com/graphql/query/mutations/shopping-list/shopping-list-3.md)
+- [Clear Checked Items](https://docs.suggestic.com/graphql/query/mutations/shopping-list/shopping-list-4.md)
+- [Clear Shopping List](https://docs.suggestic.com/graphql/query/mutations/shopping-list/shopping-list-5.md)
+- [Remove Recipe](https://docs.suggestic.com/graphql/query/mutations/shopping-list/shopping-list-6.md)
+- [Update Serving Number](https://docs.suggestic.com/graphql/query/mutations/shopping-list/shopping-list-7.md)
+- [Subscriptions](https://docs.suggestic.com/graphql/query/mutations/subscriptions.md)
+- [Update Subscription](https://docs.suggestic.com/graphql/query/mutations/subscriptions/update-subscription.md)
+- [Wellness Plans](https://docs.suggestic.com/graphql/query/mutations/wellness-plans.md)
+- [Create supplement plan for user](https://docs.suggestic.com/graphql/query/mutations/wellness-plans/create-supplement-plan-for-user.md)
+- [Update user supplement plan](https://docs.suggestic.com/graphql/query/mutations/wellness-plans/update-user-supplement-plan.md)
+- [Add Supplement](https://docs.suggestic.com/graphql/query/mutations/wellness-plans/add-supplement.md)
+- [Update Supplement](https://docs.suggestic.com/graphql/query/mutations/wellness-plans/update-supplement.md)
+- [Tracking](https://docs.suggestic.com/graphql/query/mutations/tracking.md)
+- [Activity and Exercise](https://docs.suggestic.com/graphql/query/mutations/tracking/activity-and-exercise.md)
+- [Add Exercise Entry](https://docs.suggestic.com/graphql/query/mutations/tracking/activity-and-exercise/add-exercise-entry.md): Adds exercise entry on the tracker.
+- [Delete Exercise Entry](https://docs.suggestic.com/graphql/query/mutations/tracking/activity-and-exercise/delete-exercise-entry.md): Deletes desired exercise entry.
+- [Checklists](https://docs.suggestic.com/graphql/query/mutations/tracking/checklists.md)
+- [Create my Checklist Item](https://docs.suggestic.com/graphql/query/mutations/tracking/checklists/create-my-checklist-item.md)
+- [Delete my Checklist Item](https://docs.suggestic.com/graphql/query/mutations/tracking/checklists/delete-my-checklist-item.md): Delete a specific checklist item
+- [Daily Recap](https://docs.suggestic.com/graphql/query/mutations/tracking/daily-recap.md)
+- [Create a daily recap question](https://docs.suggestic.com/graphql/query/mutations/tracking/daily-recap/create-a-daily-recap-question.md)
+- [Select Daily Recap Questions](https://docs.suggestic.com/graphql/query/mutations/tracking/daily-recap/select-daily-recap-questions.md)
+- [Delete a Daily Recap Question](https://docs.suggestic.com/graphql/query/mutations/tracking/daily-recap/delete-a-daily-recap-question.md)
+- [Sleep](https://docs.suggestic.com/graphql/query/mutations/tracking/sleep.md)
+- [Add Sleep Time](https://docs.suggestic.com/graphql/query/mutations/tracking/sleep/add-sleep-time.md): Adds Sleep time entry to the tracker.
+- [Add Sleep Quality Score](https://docs.suggestic.com/graphql/query/mutations/tracking/sleep/add-sleep-quality-score.md): Adds Sleep Quality Score to the tracker.
+- [Steps](https://docs.suggestic.com/graphql/query/mutations/tracking/steps.md)
+- [Add Steps Count](https://docs.suggestic.com/graphql/query/mutations/tracking/steps/add-steps-count.md): Adds steps count entry to the tracker.
+- [Delete Steps Count](https://docs.suggestic.com/graphql/query/mutations/tracking/steps/delete-steps-count.md): Deletes desired steps count entry.
+- [Heart Rate](https://docs.suggestic.com/graphql/query/mutations/tracking/heart-rate.md)
+- [Add Heart Rate](https://docs.suggestic.com/graphql/query/mutations/tracking/heart-rate/add-heart-rate.md): Adds heart rate entry to the tracker.
+- [Delete Heart Rate](https://docs.suggestic.com/graphql/query/mutations/tracking/heart-rate/delete-heart-rate.md): Deletes desired heart rate entry.
+- [HRV](https://docs.suggestic.com/graphql/query/mutations/tracking/hrv.md): Heart Rate Variability
+- [Add HRV](https://docs.suggestic.com/graphql/query/mutations/tracking/hrv/add-hrv.md): Adds HRV log entry to the tracker.
+- [Delete HRV](https://docs.suggestic.com/graphql/query/mutations/tracking/hrv/delete-hrv.md): Deletes desired HRV entry.
+- [Water and Hydration](https://docs.suggestic.com/graphql/query/mutations/tracking/update-hydratation.md): Increase or decrease water intake tracked
+- [Weight](https://docs.suggestic.com/graphql/query/mutations/tracking/weight.md)
+- [Add Weight Entry](https://docs.suggestic.com/graphql/query/mutations/tracking/weight/add-weight-entry.md): Adds a weight entry to the tracker.
+- [Remove Weight Entry](https://docs.suggestic.com/graphql/query/mutations/tracking/weight/remove-weight-entry.md)
+- [Update Starting Weight](https://docs.suggestic.com/graphql/query/mutations/tracking/weight/update-starting-weight.md)
+- [User Tracker Goals](https://docs.suggestic.com/graphql/query/mutations/tracking/user-tracker-goals.md)
+- [Create User Goal](https://docs.suggestic.com/graphql/query/mutations/tracking/user-tracker-goals/create-user-goal.md)
+- [Update User Goal](https://docs.suggestic.com/graphql/query/mutations/tracking/user-tracker-goals/update-user-goal.md)
+- [Remove User Goal](https://docs.suggestic.com/graphql/query/mutations/tracking/user-tracker-goals/remove-user-goal.md)
+- [Symptoms](https://docs.suggestic.com/graphql/query/mutations/tracking/symptoms.md)
+- [Add User Symptom Log](https://docs.suggestic.com/graphql/query/mutations/tracking/symptoms/add-user-symptom-log.md)
+- [Update User Symptom Log](https://docs.suggestic.com/graphql/query/mutations/tracking/symptoms/update-user-symptom-log.md)
+- [Remove User Symptom Log](https://docs.suggestic.com/graphql/query/mutations/tracking/symptoms/remove-user-symptom-log.md)
+- [Users](https://docs.suggestic.com/graphql/query/mutations/user-profile.md)
+- [Authenticate using a Magic Link](https://docs.suggestic.com/graphql/query/mutations/user-profile/authenticate-using-a-magic-link.md)
+- [Create User](https://docs.suggestic.com/graphql/query/mutations/user-profile/new-user.md): Creating a user
+- [Custom Attributes](https://docs.suggestic.com/graphql/query/mutations/user-profile/custom-attributes.md): Set custom attributes to a user's profile
+- [Delete a User Account](https://docs.suggestic.com/graphql/query/mutations/user-profile/delete-a-user-account.md): Delete a user account
+- [Login User](https://docs.suggestic.com/graphql/query/mutations/user-profile/login-user.md): Use this mutation to login a user.
+- [Merge User Accounts](https://docs.suggestic.com/graphql/query/mutations/user-profile/merge-user-accounts.md)
+- [Request Reset Password](https://docs.suggestic.com/graphql/query/mutations/user-profile/request-reset-password.md): Request a reset password code
+- [Reset Password](https://docs.suggestic.com/graphql/query/mutations/user-profile/reset-password.md): Reset a user's password
+- [Request Password Reset email](https://docs.suggestic.com/graphql/query/mutations/user-profile/request-password-reset-email.md)
+- [Sensitive Profile Attributes](https://docs.suggestic.com/graphql/query/mutations/user-profile/sensitive-profile-attributes.md)
+- [Update Profile](https://docs.suggestic.com/graphql/query/mutations/user-profile/update-profile.md): Update user's profile
+- [Update User's Program](https://docs.suggestic.com/graphql/query/mutations/user-profile/set-program.md): Mutation used to set the current user to a desired program
+- [User's Restrictions](https://docs.suggestic.com/graphql/query/mutations/user-profile/profilerestrictionsupdate.md): Update a user's food restrictions (food preferences).
+- [Update Meal Plan Settings](https://docs.suggestic.com/graphql/query/mutations/user-profile/update-meal-plan-settings.md)
+- [User's Goals](https://docs.suggestic.com/graphql/query/mutations/user-profile/update-users-goals.md): Set user weight-related goals
+- [Legacy User Mutations](https://docs.suggestic.com/graphql/query/mutations/user-profile/legacy-user-mutations.md)
+- [Legacy | User's Biomarkers](https://docs.suggestic.com/graphql/query/mutations/user-profile/legacy-user-mutations/biomarkers.md): Mutation used to set the user's biomarker data.
+- [User's Meal Plan Settings (deprecated)](https://docs.suggestic.com/graphql/query/mutations/user-profile/legacy-user-mutations/profile-meal-plan-settings.md): Mutation used to set the user's meal plan settings.
+- [AI assistant](https://docs.suggestic.com/graphql/query/mutations/ai-assistant.md)
+- [Add user to journey](https://docs.suggestic.com/graphql/query/mutations/ai-assistant/new-user.md)
+- [Appointments](https://docs.suggestic.com/graphql/objects/appointments.md)
+- [Appointment](https://docs.suggestic.com/graphql/objects/appointments/appointment.md)
+- [Appointment Type](https://docs.suggestic.com/graphql/objects/appointments/appointment-type.md)
+- [Appointment Credit](https://docs.suggestic.com/graphql/objects/appointments/appointment-credit.md)
+- [Attendee](https://docs.suggestic.com/graphql/objects/appointments/attendee.md): User attending to the meeting.
+- [Coach](https://docs.suggestic.com/graphql/objects/appointments/coach.md): Coaching Portal Coach
+- [Common](https://docs.suggestic.com/graphql/objects/common.md)
+- [User](https://docs.suggestic.com/graphql/objects/common/user.md)
+- [Adherence](https://docs.suggestic.com/graphql/objects/common/adherence.md): Details about an item's Adherence Score
+- [Aisle Name](https://docs.suggestic.com/graphql/objects/common/aisle-name.md): Options under the aisleName field in the shopping list query
+- [CPC](https://docs.suggestic.com/graphql/objects/common/cpc.md): Description of the CPC object
+- [CPCIngredientGroup](https://docs.suggestic.com/graphql/objects/common/cpcingredientgroup.md): Description of the CPCIngredientGroup object
+- [Meal Times](https://docs.suggestic.com/graphql/objects/common/meal-times.md)
+- [Menu Item](https://docs.suggestic.com/graphql/objects/common/menu-item.md)
+- [Own Serving](https://docs.suggestic.com/graphql/objects/common/own-serving.md)
+- [Own Nutrients](https://docs.suggestic.com/graphql/objects/common/own-nutrients.md)
+- [MacroNutrientsRangeInput](https://docs.suggestic.com/graphql/objects/common/macronutrientsrangeinput.md)
+- [Range](https://docs.suggestic.com/graphql/objects/common/range.md)
+- [Tracker](https://docs.suggestic.com/graphql/objects/common/tracker.md)
+- [Restaurant](https://docs.suggestic.com/graphql/objects/common/restaurant.md)
+- [Food Logs](https://docs.suggestic.com/graphql/objects/food-logs.md)
+- [Food Filter](https://docs.suggestic.com/graphql/objects/food-logs/food-filter.md)
+- [Ingredient Amount](https://docs.suggestic.com/graphql/objects/food-logs/ingredient-amount.md)
+- [Ingredients](https://docs.suggestic.com/graphql/objects/food-logs/ingredients.md)
+- [Own Recipe Ingredient](https://docs.suggestic.com/graphql/objects/food-logs/own-recipe-ingredient.md): Description of the OwnRecipeIngredient object
+- [Meal Type](https://docs.suggestic.com/graphql/objects/food-logs/meal-type.md): Description of the mealType object
+- [Nutrients](https://docs.suggestic.com/graphql/objects/food-logs/nutrients.md): Description of the nutrients object
+- [Nutrient Enum](https://docs.suggestic.com/graphql/objects/food-logs/nutrients/nutrient-enum.md): Enum values of the nutrients
+- [Portions](https://docs.suggestic.com/graphql/objects/food-logs/portions.md): Description of the portions object
+- [Servings](https://docs.suggestic.com/graphql/objects/food-logs/servings.md): Description of the servings object
+- [AI Food Log](https://docs.suggestic.com/graphql/objects/food-logs/ai-food-log.md)
+- [Food Analysis](https://docs.suggestic.com/graphql/objects/food-logs/ai-food-log/food-analysis.md)
+- [Meal Plan](https://docs.suggestic.com/graphql/objects/meal-plan.md)
+- [Debug Meal Plan Conditions](https://docs.suggestic.com/graphql/objects/meal-plan/debug-meal-plan-conditions.md)
+- [Meal](https://docs.suggestic.com/graphql/objects/meal-plan/meal.md): Description of the meal object
+- [Meal Plan Day](https://docs.suggestic.com/graphql/objects/meal-plan/meal-plan-day.md)
+- [Maximum Time per Meal](https://docs.suggestic.com/graphql/objects/meal-plan/maximum-time-per-meal.md)
+- [Maximum Ingredient Count](https://docs.suggestic.com/graphql/objects/meal-plan/maximum-ingredient-count.md)
+- [Meal Plan Template](https://docs.suggestic.com/graphql/objects/meal-plan/meal-plan-template.md)
+- [Simple Meal Plan Filters](https://docs.suggestic.com/graphql/objects/meal-plan/simple-meal-plan-filters.md)
+- [Recipe](https://docs.suggestic.com/graphql/objects/recipe.md)
+- [Recipe](https://docs.suggestic.com/graphql/objects/recipe/recipe-object.md): Fields and details of the recipe object
+- [Tags](https://docs.suggestic.com/graphql/objects/recipe/recipe-object/tags.md)
+- [Cuisines](https://docs.suggestic.com/graphql/objects/recipe/recipe-object/cuisines.md)
+- [Recipe Swap Options](https://docs.suggestic.com/graphql/objects/recipe/recipe-swap-options.md)
+- [Parsed Ingredient Lines](https://docs.suggestic.com/graphql/objects/recipe/parsed-ingredient-lines.md)
+- [Nutritional Info](https://docs.suggestic.com/graphql/objects/recipe/nutritional-info.md): Nutritional information per gram of recipe.
+- [Nutrients Per Serving](https://docs.suggestic.com/graphql/objects/recipe/nutrientsperserving.md): Nutritional information per serving
+- [Calories Per Serving](https://docs.suggestic.com/graphql/objects/recipe/caloriesperserving.md): Per serving caloric value of each nutrient
+- [Relative Calories](https://docs.suggestic.com/graphql/objects/recipe/relative-calories-deprecated.md): Relative caloric value of each macronutrient as a percentage of total calories per serving.
+- [Source](https://docs.suggestic.com/graphql/objects/recipe/source.md): Source information for a recipe
+- [Ingredients](https://docs.suggestic.com/graphql/objects/recipe/ingredients.md): Description of the Ingredient object
+- [Units of Measurement](https://docs.suggestic.com/graphql/objects/recipe/units-of-measurement.md)
+- [Lab Tests](https://docs.suggestic.com/graphql/objects/lab-tests.md)
+- [Article](https://docs.suggestic.com/graphql/objects/lab-tests/article.md)
+- [Biomarker](https://docs.suggestic.com/graphql/objects/lab-tests/biomarker.md)
+- [Supplement](https://docs.suggestic.com/graphql/objects/supplement.md)
+- [Assessments](https://docs.suggestic.com/graphql/objects/assessments.md)
+- [Question](https://docs.suggestic.com/graphql/objects/assessments/question.md)
+- [Answer](https://docs.suggestic.com/graphql/objects/assessments/answer.md)
+- [Content](https://docs.suggestic.com/graphql/objects/content.md)
+- [Content Library](https://docs.suggestic.com/graphql/objects/content/content-library.md)
+- [Content Categories](https://docs.suggestic.com/graphql/objects/content/content-categories.md)
+- [Content Tag](https://docs.suggestic.com/graphql/objects/content/content-tag.md)
+- [AI assistant](https://docs.suggestic.com/graphql/objects/ai-assistant.md)
+- [Journey](https://docs.suggestic.com/graphql/objects/ai-assistant/journey.md)
+- [dayJourney](https://docs.suggestic.com/graphql/objects/ai-assistant/dayjourney.md)
+- [Interaction](https://docs.suggestic.com/graphql/objects/ai-assistant/interaction.md)
+- [Symptoms](https://docs.suggestic.com/graphql/objects/symptoms.md)
+- [Symptom](https://docs.suggestic.com/graphql/objects/symptoms/symptom.md)
+- [Symptom Log](https://docs.suggestic.com/graphql/objects/symptoms/symptom-log.md)
+- [Symptom Category](https://docs.suggestic.com/graphql/objects/symptoms/symptom-category.md)
+- [Webhooks](https://docs.suggestic.com/graphql/objects/webhooks.md)
+- [Appointment](https://docs.suggestic.com/graphql/objects/webhooks/appointment.md)
+- [Sleep Tracker](https://docs.suggestic.com/graphql/objects/webhooks/sleep-tracker.md)
+- [Water Tracker](https://docs.suggestic.com/graphql/objects/webhooks/water-tracker.md)
+- [Steps Tracker](https://docs.suggestic.com/graphql/objects/webhooks/steps-tracker.md)
+- [Weight Tracker](https://docs.suggestic.com/graphql/objects/webhooks/weight-tracker.md)
+- [Activity/Exercise Tracker](https://docs.suggestic.com/graphql/objects/webhooks/activity-exercise-tracker.md)
+- [Reverse Health Case Study](https://docs.suggestic.com/graphql/case-studies/reverse-health-case-study.md): Case study: Scaling With Suggestic
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.suggestic.com/graphql/master.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

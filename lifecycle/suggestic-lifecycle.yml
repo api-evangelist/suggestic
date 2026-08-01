@@ -1,0 +1,39 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.suggestic.com/graphql/helpful-resources/deprecated-features.md
+versioning:
+  graphql:
+    scheme: unversioned-single-endpoint
+    current: production
+    field_deprecation: GraphQL @deprecated directive + a maintained Deprecated Features doc
+  rest_login:
+    scheme: uri-path
+    current: v1
+    endpoint: https://production.suggestic.com/api/v1/login
+deprecation:
+  policy_url: https://docs.suggestic.com/graphql/helpful-resources/deprecated-features
+  approach: >-
+    Deprecated queries, mutations, and fields are documented (not removed) with
+    a recommended replacement; using them may cause unexpected behavior.
+  deprecated_operations:
+    - deprecated: mealPlannerByDay
+      use_instead: mealPlan
+    - deprecated: profileMealPlanSettings
+      use_instead: updateMealPlanSettings
+    - deprecated: createOwnRecipe
+      use_instead: createMyRecipe
+    - deprecated: updateOwnRecipe
+      use_instead: updateMyRecipe
+    - deprecated: removeOwnMeal
+      use_instead: deleteUserRecipe
+  deprecated_fields:
+    recipe: [adherence, course, cuisine, nutrients, parsedIngredientLines, serving, sourceUrl]
+    restaurant: [cuisine, cuisineTag, maxPriceRange, minPriceRange]
+    menuItems: [course, nutrients]
+status_page: https://status.suggestic.com/
+changelog:
+  ref: changelog/suggestic-changelog.yml
+  url: https://docs.suggestic.com/graphql/changelog/2025
+token_expiry:
+  jwt_access_token_seconds: 7200
+  refresh_supported: true

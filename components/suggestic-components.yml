@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.suggestic.com/graphql/helpful-resources/console/ai-chat-widget.md
+components:
+  - family: ai-assistant
+    name: AI Chat Widget
+    type: embeddable-widget
+    description: >-
+      Embeddable AI Assistant chat widget that can be added to a website by
+      enabling the Widget directly from the Suggestic Console. Surfaces the
+      configured AI Assistant (with journeys and guardrails) to end users
+      without building a custom chat UI.
+    enable_via: https://console.suggestic.com/
+    docs: https://docs.suggestic.com/graphql/helpful-resources/console/ai-chat-widget
+notes: >-
+  Distinct from the server-side Node SDK (see packages/). The AI Chat Widget is
+  a hosted/prebuilt client-side surface configured from the Console. The
+  Suggestic Console and Telehealth/Coaching Portal are hosted applications
+  rather than embeddable component libraries.
