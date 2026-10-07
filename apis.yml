@@ -85,6 +85,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/suggestic-plans-pricing.yml
 - url: https://blog.suggestic.com/feed
   type: BlogRSS
 - type: DomainSecurity
