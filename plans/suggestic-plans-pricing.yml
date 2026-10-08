@@ -1,0 +1,35 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://pricing.suggestic.com/
+sources:
+- https://pricing.suggestic.com/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Interactive cost calculator comparing internal build ($390k – $680k to first production, $60k –
+  $150k / year maintain) against Suggestic engagement. Figures are user-assumption-driven estimates; page
+  states 'Estimates only. Final pricing depends on scope, integrations, and data.' and directs to Book
+  a Demo for tailored scoping.
+plan_count: 2
+currency: USD
+plans:
+- name: Build it with Suggestic — pilot
+  price_text: $40k – $50k pilot to first production · ~ 10 – 12 weeks
+  currency: USD
+  period: one-time
+  unit: pilot to first production
+  included_quota: ~ 10 – 12 weeks to first production
+- name: Suggestic ongoing support
+  price_text: Then $2.5k – $6k / month support
+  currency: USD
+  period: month
+  unit: support
